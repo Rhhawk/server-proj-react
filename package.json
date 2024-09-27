@@ -1,0 +1,20 @@
+{
+  "name": "server-proj-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "att": "node --watch server.js",
+    "pri": "npx prisma studio"
+  },
+  "dependencies": {
+    "@prisma-cms/prisma-schema": "^1.0.3-beta",
+    "@prisma/client": "^5.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.19.1"
+  }
+}
